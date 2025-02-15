@@ -24,7 +24,7 @@ export default function WelcomeScreen({ onEnter }) {
       {/* contenu principal */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center z-10 space-y-6">
         {/* titre principal avec police Netflix et effet néon */}
-        <h1 className="netflix-font neon-text-h1 text-2xl sm:text-5xl md:text-7xl font-bold uppercase tracking-widest text-red-600">
+        <h1 className="netflix-font neon-text-h1 text-3xl sm:text-5xl md:text-7xl font-bold uppercase tracking-widest text-red-600">
           Bienvenue sur mon Portfolio
         </h1>
 

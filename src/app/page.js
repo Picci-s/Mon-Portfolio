@@ -121,7 +121,7 @@ export default function Home() {
             compétences et évoluer dans ce domaine.
           </p>
           <a
-            href="/cv.pdf"
+            href="/CV.pdf"
             download
             className="mt-6 bg-red-600 px-4 sm:px-5 md:px-5 py-2 sm:py-3 text-sm sm:text-base md:text-lg font-bold rounded-lg hover:bg-red-700 transition-all max-w-xs sm:max-w-sm mx-auto md:mx-0">
             Télécharger mon CV
