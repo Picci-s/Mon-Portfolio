@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🚀 Mon Portfolio
+Bienvenue sur mon portfolio ! Ce projet est une vitrine interactive où je présente mon parcours, mes compétences et mes projets avec une approche visuelle et immersive.
 
-## Getting Started
 
-First, run the development server:
+🛠️ Tech utilisées
+Next.js (React)
+Tailwind CSS (Design)
+Framer Motion (Transitions)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎨 Ce que tu trouveras
+✅ Une navigation fluide inspirée de Netflix
+✅ Des animations immersives
+✅ Une présentation simple et efficace de mes projets
+✅ Un design qui me ressemble
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+⚡ Comment l’exécuter
+1-git clone https://github.com/ton-profil/ton-portfolio.git  
+2-cd ton-portfolio  
+3-npm install  
+4-npm run dev  
+5-Ensuite, ouvre http://localhost:3000 dans ton navigateur.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+📬 Me contacter
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📂 GitHub : "https://github.com/Picci-s"
+💼 LinkedIn : "https://www.linkedin.com/in/julien-piccirillo-1a133513b/"
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

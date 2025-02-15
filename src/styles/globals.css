@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+
+html, body {
+  scrollbar-width: none;
+  color: var(--foreground);
+  background: var(--background);
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Internet Explorer & Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+
+.netflix-font {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+}
+
+
+/* Effet néon sur les titres */
+.neon-text {
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.6), 0 0 30px rgba(255, 0, 0, 0.4), 0 0 40px rgba(255, 0, 0, 0.2);
+
+}
+/* Style des sections avec opacité par défaut et animation d'opacité */
+.section {
+  opacity: 1;
+
+}
+
+.section.active {
+  opacity: 1;
+}
