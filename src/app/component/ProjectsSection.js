@@ -18,9 +18,9 @@ export default function ProjectsSection() {
       title: "Portfolio",
       description: "Mon portfolio interactif avec React Next.js",
       image: "/images/portfolio.png",
-      link: "",
-      code: "",
-      deployed: false,
+      link: "https://julienpiccirillo.dev",
+      code: "https://github.com/Picci-s/Mon-Portfolio",
+      deployed: true,
     },
     {
       title: "Recettes Dev",

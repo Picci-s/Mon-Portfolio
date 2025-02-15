@@ -12,19 +12,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Mon Portfolio",
+  title: "Portfolio | Julien Piccirillo",
   description: "Portfolio de Julien Piccirillo, Développeur Web Full-Stack",
   openGraph: {
-    title: "Mon Portfolio",
-    description: "Mon portfolio de Développeur Web",
-    url: "https://mon-portfolio.com",
-    images: ["https://mon-portfolio.com/og-image.jpg"],
+    title: "Portfolio | Julien Piccirillo",
+    description: "Découvrez mes projets et mon parcours en tant que Développeur Web Full-Stack.",
+    url: "https://julienpiccirillo.dev",
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Mon Portfolio",
-    description: "Portfolio de Julien Piccirillo",
-    image: "https://mon-portfolio.com/twitter-image.jpg",
+    card: "summary",
+    title: "Portfolio | Julien Piccirillo",
+    description: "Développeur Web Full-Stack, découvrez mes projets et mon expertise.",
   },
 };
 
