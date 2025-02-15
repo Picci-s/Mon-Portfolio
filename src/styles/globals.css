@@ -44,6 +44,10 @@ html, body {
   text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.6), 0 0 30px rgba(255, 0, 0, 0.4), 0 0 40px rgba(255, 0, 0, 0.2);
 
 }
+.neon-text-h1 {
+  text-shadow: 0 0 2px rgba(255, 0, 0, 0.7), 
+               0 0 5px rgba(255, 0, 0, 0.4);
+}
 /* Style des sections avec opacité par défaut et animation d'opacité */
 .section {
   opacity: 1;
