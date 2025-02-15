@@ -45,9 +45,13 @@ html, body {
 
 }
 .neon-text-h1 {
-  text-shadow: 0 0 2px rgba(255, 0, 0, 0.7), 
-               0 0 5px rgba(255, 0, 0, 0.4);
+  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.5);
+  text-shadow: 
+    0 0 5px rgba(255, 0, 0, 0.9), 
+    0 0 10px rgba(255, 0, 0, 0.7), 
+    0 0 15px rgba(255, 0, 0, 0.5);
 }
+
 /* Style des sections avec opacité par défaut et animation d'opacité */
 .section {
   opacity: 1;
