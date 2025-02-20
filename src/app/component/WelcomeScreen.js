@@ -30,7 +30,7 @@ export default function WelcomeScreen({ onEnter }) {
 
         {/* sous-titre  */}
         <p className="text-base sm:text-lg md:text-xl text-gray-300">
-          Développeur Web Full-Stack | React | Next.js | Node.js || Junior
+         Développeur Full-Stack | React, Next.js, TypeScript, Node.js | <spans className="text-base font-medium sm:text-lg md:text-xl text-gray-300">À l'écoute d'opportunités  </spans>
         </p>
 
         {/* Bouton avec effet au survol */}
