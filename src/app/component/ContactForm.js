@@ -22,10 +22,24 @@ export default function ContactForm() {
     setFormData({ ...formData, [e.target.name]: e.target.value }); // met à jour l'état avec les valeurs saisies
   };
 
-  // fonction exécutée lors de la soumission du formulaire
-  const handleSubmit = (e) => {
-    e.preventDefault(); // Empêche le rechargement de la page
+ // fonction exécutée lors de la soumission du formulaire
+ const handleSubmit = (e) => {
+  e.preventDefault(); // Empêche le rechargement de la page
 
+  // vérification des champs obligatoires
+  if (!formData.name.trim() || !formData.email.trim() || !formData.message.trim()) {
+    setError("Tous les champs sont obligatoires !");
+    return;
+  }
+
+  // vérification du format de l'email avec une regex simple
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailPattern.test(formData.email)) {
+    setError("Veuillez entrer une adresse email valide.");
+    return;
+  }
+
+  setError(null); // Réinitialise l'erreur en cas de succès
     // récupération des identifiants EmailJS depuis les variables d'environnement
     const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
     const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
